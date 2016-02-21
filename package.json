@@ -1,0 +1,13 @@
+{
+  "name": "LibreCashSite"
+, "description": "LibreCash's Website"
+, "license": "BSD-3-Clause"
+, "repository": "https://github.com/grauwoelfchen/librecash-site"
+, "dependencies": {
+    "bower": "~> 1.7.7"
+  , "gulp": "~> 3.9.0"
+  , "gulp-bower": "~> 0.0.10"
+  , "gulp-css": "0.1.0"
+  , "gulp-concat": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "LibreCashSite"
+, "ignore":  [
+    "**/.*"
+  , "node_modules"
+  , "vendor/components"
+  ]
+, "dependencies": {
+    "semantic-ui": "~> 2.0.8"
+  }
+}
