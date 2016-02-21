@@ -18,7 +18,7 @@ import Text.Blaze.Html.Renderer.Text (renderHtml)
 import Text.Hamlet (hamlet, hamletFile)
 
 
-data Route = Home | Stylesheet
+data Route = Home | Stylesheet | JavaScript
 
 getPort :: IO Int
 getPort = (getEnv "PORT" >>= return . read) `catch`
@@ -28,6 +28,7 @@ getPort = (getEnv "PORT" >>= return . read) `catch`
 render :: Route -> [(Text, Text)] -> Text
 render Home _ = "/"
 render Stylesheet _ = "/build/app.css"
+render JavaScript _ = "/build/app.js"
 
 
 title :: String

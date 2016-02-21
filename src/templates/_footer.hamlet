@@ -4,7 +4,8 @@
             <div class="thirteen wide column">
                 <div class="footer-content">
                     <p>
-                        <a href="/">#{title} is developed with <3
+                        <a href="/">#{title}
+                        is developed with <3
                     <ul class="legal-links">
                         <li>
                             <a href="/policy">policy

@@ -3,19 +3,20 @@ $doctype 5
     <meta charset="utf-8">
     <meta name="title" content=#{title}>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel=stylesheet href=@{Stylesheet}>
+    <link rel=stylesheet href=@{Stylesheet} media="all">
     <title>#{title}
 <body>
-    <div class="content">
+    <div class="wrapper">
       <div class="full height">
           <div class="following bar">
               <div class="ui container">
                   <div class="ui large secondary network inverted menu">
                       <div class="item">
                           <h2>
-                              <image class="image" size="48x48" src="/librecash-icon-48x48.png">
+                              <image class="image" size="48x48" src="/img/librecash-icon-48x48.png">
                       <div class="item">
                       <div class="right menu">
+                          <div id="languages" class="ui language floating dropdown link item">
           <div class="masthread segment bg3">
               <div class="ui container">
                   <div class="introduction">
@@ -35,3 +36,4 @@ $doctype 5
                           <h2 class="ui header">FOO
                           <p>FOO BAR
     ^{footer}
+    <script src=@{JavaScript} async="async">
